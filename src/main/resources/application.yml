@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: microservice-kubetest-k8s
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: orquestador
+      authentication-database: admin
+      username: root
+      password: secret
